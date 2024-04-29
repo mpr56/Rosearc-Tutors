@@ -8,8 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     
     // Email address to send the form data
-    $to = "your_email@example.com";
-    $subject = "New enquiry from Rosearc Film";
+    $to = "max.preet.27@gmail.com";
+    $subject = "New enquiry for Rosearc Tutoring";
     
     // Build the message
     $message = "Name: " . $name . "\n";
