@@ -7,6 +7,19 @@
 <link rel="icon" href="assets/img/R logo.png">
 </head>
 
+
+<style>
+  /* Style to visually grey out the checkbox */
+  #opt-5[disabled] + label {
+    color: #999; /* Change text color to grey */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+  }
+  #opt-5[disabled] + label svg {
+    fill: #716f6f; /* Change SVG color to grey */
+  }
+</style>
+
+
 <body>
 <div class="perspective effect-rotate-left">
   <div class="container"><div class="outer-nav--return"></div>
@@ -70,7 +83,7 @@
                       </g>
                       </svg>
                     </label>
-                    <input id="opt-5" type="checkbox" name="options[]" value="Year 12">
+                    <input id="opt-5" type="checkbox" name="options[]" value="Year 12" disabled>
                     <label for="opt-5">Year 12&nbsp;
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -81,6 +94,8 @@
                     </label>
                   </span>
                 </div>
+                <p3>*Year 12 tutoring will be availble in the future</p3>
+                <br><br>
                 <div class="work-request--information">
                   <div class="information-name">
                     <input id="name" type="text" name="name" spellcheck="false" required>
