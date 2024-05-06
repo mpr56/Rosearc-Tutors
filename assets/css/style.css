@@ -1313,6 +1313,14 @@ text-justify: left
   height: 475px;
 }
 
+.contact p {
+font-size: 18px;
+}
+.contact li {
+  font-size: 18px;
+  }
+
+
 .contact h1 {
 	text-align: center;
   position: relative;
