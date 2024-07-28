@@ -13,7 +13,7 @@
   width: 100%;
   height: 100vh;
   box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.85);
-  overflow: hidden;
+  overflow: auto;
 }
 
 .l-wrapper {
@@ -1195,6 +1195,7 @@ text-justify: left
   min-height: 100%;
   outline: 30px solid #0f33ff;
   transition: transform 0.4s;
+  overflow: auto;
 }
 
 .modalview .container {
